@@ -1,0 +1,58 @@
+# For any support please visit https://accentials.pw/docs/
+# For more info on Accentials visit https://accentials.pw/
+# For color codes use '&' and then the color code. For more info please see docs
+# Note: Please use color codes after \n due to minecraft clearing colors after each line
+# Don't alter this...
+plugin:
+  version: Gen2-Ver1.0
+server:
+  # Turning this off uses names instead of UUID (highly not suggested)
+  # Also, not needed to turn off for bungeecord
+  online: true
+  
+  # To see previously logged in players please turn on ip-passthrough for bungeecord (if you use it)
+  # Use \n for new line (max of two lines)
+  motd:
+    new: >>> Server Name <<<\nCome join us for the first time
+    old: >>> Server Name <<<\nCome play again %player% &0[%online%/%max%]
+  
+  # Use this to turn off call-backs (true or false)
+  # For info on accentials call backs visit https://accentials.pw/docs/config/callbacks.html
+  mcstats: true
+  accentials: true
+  join:
+    new: &aWelcome %player% to MCServer
+    old: &aWelcome back %player%
+  leave: &e%player% left MCServer
+  # Format the chat
+  chat:
+    format: %prefix% &f%player% %suffix%&7: %message%
+    op-prefix: c
+    nickname-prefix: ~
+bans:
+  # Use \n for new line
+  temp-ban: &cYou cannot play for another,\n&c[timeleft]\n\n&cReason:\n&c[REASON]
+  ban: You are currently banned,\n&cforever\n&c[REASON]
+  kick: &cHey you!\n&cGet out of here!\n&c[REASON]
+economy:
+  # If global is false balance is set per world
+  # NOTE: Bypassed to always return true due to error.
+  global: true
+  # Use to change currency (Double space before for space between price and currency * use if after *)
+  currency: $
+  # values: before ($987.65) after (987.65 Coins)
+  cur-place: before
+default:
+  group: member
+  kit: member
+  balance: 99.99
+  # Set to '%' for no warping on first join
+  warp: spawn
+metrics:
+  active: true
+socialspy:
+  - message
+  - msg
+  - reply
+  - r
+  - mail

@@ -1,0 +1,8 @@
+prefix: [Member]
+suffix: ^NONE^
+Economy:[]
+  world: 100.00
+
+permissions: []
+  - accentials.kit.list
+  - accentials.warp.list

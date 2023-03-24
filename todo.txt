@@ -1,0 +1,79 @@
+|==============================|==========|   |==========|========================|
+| Task                         |  Status  |   |  Status  |       Description      |
+|==============================|==========|   |==========|========================|
+| Groups                       | Complete |   |   Done   | Done but needs testing |
+| Info File                    |          |   | Complete |     No more needed     |
+| Player:                      |- ------- |   | -------- |     Nothing needed     |
+|  Load user                   | Complete |   |  Tested  |  Tested but needs more |
+|  Add group management        |          |   |==========|========================|
+|  Add economy management      |          |
+|  Homes                       |          |
+| Config:                      | -------- |
+|  Better reading of file      | Complete |
+|  Messages                    |          |
+|  Commands enable / disable   |   G2V2   |
+| Kits                         |          |
+| Warps                        | Complete |
+| PlayerJoinEvent              | Complete |
+| ASyncChatEvent               | Complete |
+| Staff Chat                   |   G2V2   |
+| Signs:                       | -------- |
+|  Buy                         |  Create  |
+|  Sell                        |  Create  |
+|  Free                        |  Create  |
+|  Trash                       |  Create  |
+|  Hat                         |   G2V2   |
+|  Heal                        |   G2V2   |
+|  Repair                      |   G2V2   |
+|  Recipe                      |   G2V2   |
+|  Link                        |   G2V2   |
+| Commands:                    | -------- |
+|  kit / kits                  |          |
+|  warp / warps                | Complete |
+|  tp / teleport               |          |
+|  vanish / v                  |          |
+|  nickname / nick             |          |
+|  setwarp / createwarp        |          |
+|  accentials                  |          |
+|  deletewarp / delwarp        |          |
+|  spawn                       |          |
+|  setspawn                    |          |
+|  tpa / tprequest             |          |
+|  tpaccept                    |          |
+|  tpdeny                      |          |
+|  tphere / teleporthere       |          |
+|  message / msg / pm          |          |
+|  reply / r                   |          |
+|  sethome                     |          |
+|  home / homes                |          |
+|  nuke / nuker                |          |
+|  inventorysee / invsee       |          |
+|  kill / slay                 |          |
+|  smite                       |          |
+|  deathplace / back           |          |
+|  top                         |          |
+|  repair                      |          |
+|  enchant                     |          |
+|  tpall                       |          |
+|  broadcast / bc              |          |
+|  me                          |          |
+|  killall                     |          |
+|  craft                       |          |
+|  head / skull                | Complete |
+|  enderchest / ec             |          |
+|  fly                         |          |
+|  gamemode / gm               |          |
+|  suicide / killme            |          |
+|  sellhand / sell             |   G2V2   |
+|  staffchat / sc              |   G2V2   |
+|  worth                       |   G2V2   |
+|  mail                        |   G2V2   |
+|  speed / walkspeed           |   G2V2   |
+|  tptoggle                    |   G2V2   |
+|  channel / c                 |   G2V2   |
+|  whois / seen                |   G2V2   |
+|  powertool / pt              |   G2V2   |
+|  spawnmob                    |   G2V2   |
+|==============================|==========|
+| COMMENT ALL MY FREAKIN WORK  |  FAILED  |
+|==============================|==========|

@@ -1,0 +1,22 @@
+name: Accentials
+version: Gen2-Ver1.0
+description: Accentials is a core plugin 
+main: aceplugins.accentials.Accentials
+commands:
+  accentials:
+    description: Accentials core command
+  setwarp:
+    description: This allows you to setup teleport points
+  warp:
+    aliases: [warps]
+    description: This allows the user to teleport to a warp
+  setspawn:
+    description: Set /spawn location and world spawn point
+  spawn:
+    description: This allows the user to teleport to spawn
+  head:
+    description: Use this to get your own head or other players heads
+    aliases: [skull]
+  balance:
+    description: Check some one else's or your balance
+    aliases: [bal]

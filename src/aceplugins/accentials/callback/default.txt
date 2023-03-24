@@ -1,0 +1,5 @@
+metrics:
+  # Please don't disable this, it means a lot to us
+  # More info at https://accentials.pw/TOS.pdf
+  # yes / true or no / false
+  active: true

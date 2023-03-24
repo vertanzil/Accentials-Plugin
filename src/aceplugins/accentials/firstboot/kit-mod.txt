@@ -1,0 +1,5 @@
+timeout: 1440
+stick:
+  name: &cBanStick
+  enchantment: unbreaking,999
+  lore: &cCMD: /ban %other% The ban stick has spoken

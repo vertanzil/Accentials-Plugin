@@ -1,0 +1,16 @@
+prefix: &a[&bMEMBER&a]
+suffix: %none%
+permissions:
+  - accentials.command.kit.list
+  - accentials.command.kit.member
+  - accentials.command.warp.list
+  - accentials.command.warp.example
+  - accentials.command.spawn
+  - accentials.command.me
+  - accentials.sign.use
+  - accentials.command.tpa
+  - accentials.command.tpaccept
+  - accentials.command.tpdeny
+  - accentials.command.tpahere
+  - accentials.command.message
+  - accentials.command.reply

@@ -1,0 +1,21 @@
+timeout: -1
+stone_pickaxe:
+  name: &eMember pickaxe
+  lore: &eDwarf Diggy Diggy Hole
+  enchantment: unbreaking,999
+stone_spade:
+  name: &eMember spade
+  lore: &eDwarf Diggy Diggy Hole
+  enchantment: unbreaking,999
+stone_axe:
+  name: &eMember axe
+  lore: &eSo much for saving trees
+  enchantment: unbreaking,999
+stone_sword:
+  name: &eMember sword
+  lore: &eSlay them mobs
+  enchantment: unbreaking,999
+apple:
+  amount: 10
+  name: &eMember apple
+  lore: &eGuess we all need to eat

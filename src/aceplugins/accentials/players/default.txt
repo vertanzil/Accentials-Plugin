@@ -1,0 +1,16 @@
+realname: Default
+nickname: Default
+groups:
+  - group1
+prefix: %NONE%
+suffix: %NONE%
+economy:
+  global: 100
+permissions:
+  - accentials.example
+homes: %
+cooldowns: %
+ban:
+  active: false
+  time: -1
+  reason: For the fun :P

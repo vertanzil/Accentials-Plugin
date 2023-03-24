@@ -1,0 +1,59 @@
+bad:
+  permission: &cSorry, you don't have permission to do this
+  command: &cSorry, that command doesn't exist
+  player: &cSorry, player '%other%' cannot be found
+  usage: &cSorry, that's not how you use this. See below:
+  console: &cSorry, this is a player only command 
+  balance: &cSorry, you don't have enough money for that
+sign:
+  create:
+    success: &a%type% sign successfully created
+    failed: &cIncorrect usage. Please see /docs
+  use:
+    buy: &aSuccessfully bought %amount% %item% for %cost%
+    sell: &aSuccessfully sold %amount% %item% for %cost%
+    free: &aEnjoy your free %item%
+    trash: &aEnjoy the free disposal of items
+fly:
+  enable:
+    - &aYay, lets fly!
+    - &aTry not to fly into anything %player%
+  enable-other: &aFlying activated for %player%
+  disable: &aFlying disabled
+  disable-other: &aHopefully %player%&a was on the ground.\n&aFlight disabled for %player%
+god:
+  enabled: &aEnjoy living forever more...
+  enabled-other: &aGod activated for %player%
+  disabled: &aGod mode disabled
+  disabled-other: &aGod mode disabled for %player%
+skull:
+  other:
+    - &aEnjoy defacing %player%&a's head
+    - &aHave a crush on %player%&a?
+    - &aEnjoy wearing %player%&a's skull
+  own: &aEnjoy looking at yourself?
+warp:
+  own: &aSuccessfully warped to %warp%!
+  other: &aSuccessfully sent %player%&a to warp %warp%!
+  none: &cSorry, no warps have been set up yet
+  exist: &cSorry, this warp doesn't exist
+  list: &aWarps:
+  # Used for list & clickables
+  warp-prefix: a
+spawn:
+  own: &aSuccessfully teleported to spawn!
+  other: &aSuccessfully teleported %other% to spawn!
+  set: &aSuccessfully set spawn at your position!
+vanish:
+  enabled: &aSuccessfully vanished!
+  disabled: &aSuccessfully un-vanished!
+socialspy:
+  enable: &aSocialSpy successfully enabled
+  disable: &aSocialSpy successfully disabled
+  in: &0[&d%player%&0]&acommand executed command:\n&c"%command%"
+balance:
+  self: &aBalance: &c%balance%
+  other: &a%player%'s &abalance: &c%balance%
+message:
+  in: &7[%player0%&7 -> Me&7] &r%message%
+  out: &7[Me&7 -> %player0%] &r%message%
