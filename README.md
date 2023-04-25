@@ -1,3 +1,3 @@
 # Accentials
-Accentials
-ACE PLUGINS WAS A REPLACEMENT FOR ESSENTIALS, THIS IS NOW DISCONTIUNED AND IS NOW ARCHIVED.
+This was a replacement for the highly popular Essentials, originally partly wwritten by myself and @AcePlugins.
+The project is now discontiuned and is no longer currently being acitvly developed and is publicly archived.
